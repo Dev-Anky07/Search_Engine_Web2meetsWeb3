@@ -1,0 +1,14 @@
+import requests
+
+# Get the data from the API (Retrieving listings for an asset)
+
+url = "https://api.opensea.io/api/v1/asset/asset_contract_address/token_id/listings?limit=20"
+
+headers = {
+    "Accept": "application/json",
+    "X-API-KEY": "__API_KEY__"
+}
+
+response = requests.request("GET", url, headers=headers)
+
+print(response.text)
