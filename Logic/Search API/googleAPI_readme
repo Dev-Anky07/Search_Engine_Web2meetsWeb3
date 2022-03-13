@@ -1,4 +1,17 @@
-## Read me file for Google Search API
+## Read me file for Google Search API ##
 
-## Classification of Parameters needed
+## Parameters Description and Stuff ##
 
+* API Key * = "User input not needed :: Already included in the code "
+* Query * = " User input needed and stored :: User input is stored in the variable 'query' "
+* Sorting * = " Not needed to modify after optimization :: User input isn't needed "
+* Device * = " Ask the browser :: User input isn't needed "
+* Output * = " Not needed to modify after optimization :: User input isn't needed "
+* Google UI lang * = " Google UI Language :: Defaults to English :: User input not necessary "
+* Country code * = " Country code :: Defaults to IN :: User input not necessary "
+* Include Answer Box * = " Include Answer Box :: Defaults to True :: User input not necessary "
+* Location * = " Ask the browser :: User input not necessary although permission is required or it defaults to the IP address of the user/device "
+* Google Domain * = " Google Domain :: Defaults to www.google.com :: User input not necessary "
+* Page * = " Page number :: Defaults to 1 :: Not necessary to modify after optimization "
+* Filter * = " Filter :: Defaults to 0 :: Not necessary to modify after optimization "
+* Number of Search Results * = " Number of Search Results :: Defaults to 5/10 (Experimenting rn):: Not necessary to modify after optimization "
