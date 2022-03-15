@@ -5,6 +5,8 @@ import requests
 # set up the request parameters
 # create variables for all parameters
 # replace the placeholder with your own data
+api = '9F3022F9163D4D9389D6D1F4F64F3A30'
+query = val(input("Enter your search query: "))
 
 params = {
   'api_key': '9F3022F9163D4D9389D6D1F4F64F3A30',# Replace with your own api key and its placeholder
@@ -23,7 +25,6 @@ params = {
   'num': '5'#  Replace with your own number of results (Max is 100)
 }
 
-# make the http GET request to Scale SERP
 api_result = requests.get('https://api.scaleserp.com/search', params)
 
 # print the HTML response from Scale SERP
