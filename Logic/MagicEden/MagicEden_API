@@ -11,18 +11,8 @@
 #Then Classify Different functions and descibe them shortly in this readme file
 
 # The included Functions are as follows :-
-  
-#   Less gooo 
 
-#   Ligma
-
-#   Ligma?
-
-#   Ligma Balls
-
-#   No bitches ?
-
-# Get Collections {Get information of collections}
+# # Get Collections {Get information of collections}
 #* api-mainnet.magiceden.dev/v2/collections?offset=0&limit=200
 
 import requests
