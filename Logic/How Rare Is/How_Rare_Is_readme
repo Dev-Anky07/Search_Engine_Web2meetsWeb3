@@ -8,7 +8,8 @@ I'll document the whole api and explain it in detail
  Do not use as an oracle in DeFi applications
 
 
-## Floor API ##
+## Floor API ## 
+
 { Reminding this one more time: As we can't guarantee that this data is up to date and always accurate, do not use this API as an oracle for DeFi applications!
 To retrieve Floor pricing for all NFT collections listed on HowRare.is use a GET request GET https://api.howrare.is/v0.1/floor }
 
