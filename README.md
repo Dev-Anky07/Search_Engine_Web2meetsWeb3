@@ -19,3 +19,6 @@ It would also include suff like Creators, Utility, Metadata, Floor price and oth
 
 A search engine that combines all data from traditional and decentralized sources like web 2 and web 3 for a particular project and displays that information Graphically 
 While being easy to use and understand
+
+## It's more of a search engine rather than being a discovery tool for digital asstes ##
+
