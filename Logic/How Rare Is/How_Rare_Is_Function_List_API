@@ -1,0 +1,53 @@
+## README FILE FOR HOW RARE IS WEBSITE
+
+I'll document the whole api and explain it in detail
+
+**The API is highly experimental and in their own words -**
+
+ All APIs should be considered experimental. There can be bugs! Use on your own risk! APIs should be considered alpha quality and going forward there will be breaking changes.
+ Do not use as an oracle in DeFi applications
+
+
+## Floor API ## 
+
+{ Reminding this one more time: As we can't guarantee that this data is up to date and always accurate, do not use this API as an oracle for DeFi applications!
+To retrieve Floor pricing for all NFT collections listed on HowRare.is use a GET request GET https://api.howrare.is/v0.1/floor }
+
+** Calling this https://api.howrare.is/v0.1/floor returns all collections and we'll need to scrap the ones  **
+
+Api Calling Example
+
+import requests
+
+url = "https://api.howrare.is/v0.1/floor"
+
+response = requests.request("GET", url)
+
+   print(response.text)
+
+
+Result of successful data query:
+
+{
+    "api_version": "0.1",
+    "result": {
+        "api_code": 200,
+        "api_response": "Success",
+        "data": [
+            {
+                "name": "Degen Ape Academy",
+                "url": "/degenapes",
+                "floor_sol": "24.99",
+                "floor_usd": "5596.01"
+            },
+            {
+                "name": "SolanaMonkeyBusiness (SMB)",
+                "url": "/smb",
+                "floor_sol": "138.00",
+                "floor_usd": "30902.34"
+            }
+        ]
+    }
+}
+                    
+Data in the result trimmed to 2 items.

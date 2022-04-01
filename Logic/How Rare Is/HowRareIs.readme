@@ -1,0 +1,18 @@
+## Readme file for How Rare Is ##
+
+Excerpts directly from HowRare.is public APIs
+
+Disclaimer: All APIs should be considered experimental. There can be bugs! Use on your own risk! 
+* APIs should be considered alpha quality and going forward there will be breaking changes *
+# Do not use as an oracle in DeFi applications! #
+
+Please be nice and don't abuse APIs. In case APIs will get abused we will need to put them under 
+authorization and no one wants to deal with extra keys, right? :)
+
+In creating our first public APIs we followed YAGNI principle ("You aren't gonna need it" is a principle
+which arose from extreme programming that states a programmer should not add functionality until deemed necessary). 
+APIs are very simple but at the same time data rich.
+
+
+** If your use case requires some extra functionality let us know, and we will look into supporting it **
+
